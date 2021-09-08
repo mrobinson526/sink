@@ -7,7 +7,22 @@
         alert("Hello World");
     }
     sayHello();
-    // come back to #9
+    // Using function to check age
+    function checkAge(name, age) {
+        var person = {
+            name: "Charles",
+            age: 21,
+            name: "Abby",
+            age: 27,
+            name: "James",
+            age: 18,
+            name: "John",
+            age: 17,
+        };
+        if (person.age < 21) {
+            alert("Sorry " + person.name + ", you aren't old enough to view this page!")
+        }
+    checkAge(name,age);
     // Using arrays with For Loop
     var vegetables = ["collards", "Spinach", "Broccoli", "Succotash", "Corn"];
     for (let i=0; i<vegetables.length; i++) {
